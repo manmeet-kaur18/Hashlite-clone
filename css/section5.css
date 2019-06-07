@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+h5{
+	text-align:center;
+	padding-top:0px;
+	padding-bottom:20px;
+	margin-bottom: .5rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+    color:rgba(70, 73, 92, 0.5);
+}
+.section52 .container-fluid{
+	padding-left: 310px !important;
+}
+.section52{
+	width:100%;
+	height: 170vh;
+	box-sizing:border-box;
+	padding:140px 0px;
+	background-color:#eee;
+	}
+.para11 p{
+	text-align: center;
+}
+.card2{
+	position:relative;
+	max-width: 300px;
+	height:auto;
+	background: linear-gradient(-45deg,#fe0847,#feae3f);
+	border-radius: 7px;
+	margin:0 auto;
+	padding:40px 20px;
+	box-shadow:0 10px 15px rgba(0,0,0,0.1);
+	transition:0.5s;
+	overflow: hidden;
+}
+
+.col-sm-3:nth-child(1) .card2
+{
+	background:white;
+}
+.col-sm-3:nth-child(2) .card2
+{
+	background: linear-gradient(215deg,#1ecfca 0%,#9c51f5 70% ,#b88ee7 100%);
+	transform:scale(1.1);
+}
+.col-sm-3:nth-child(3) .card2
+{
+	background: white;
+
+}
+.col-sm-3:nth-child(1) .card2 .option ul li{
+	margin: 0;
+	padding: 0;
+	color:gray;
+	font-size:16px;
+	list-style-type: none;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-bottom: 1px solid #eee;
+	text-align: center; 
+}
+
+.col-sm-3:nth-child(2) .card2 .option ul li{
+    margin: 0;
+	padding: 0;
+	color:#fff;
+	font-size:16px;
+	list-style-type: none;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-bottom: 1px solid #eee;
+}
+.col-sm-3:nth-child(3) .card2 .option ul li{
+	margin: 0;
+	padding: 0;
+	color:gray;
+	font-size:16px;
+	list-style-type: none;
+	padding-top:10px;
+	padding-bottom:10px;
+	border-bottom: 1px solid #eee;
+}
+
+.card2 .price .transition:before{
+	content:'';
+	position:absolute;
+	bottom:0;
+	left:0;
+	height:40%;
+	width:100%;
+	background:rgba(255,255,255,0.1);
+	z-index:1;
+	transform:skewY(-5deg) scale(1.5);
+
+}
+
+.title h2{
+	position: relative;
+	margin:20px 0 0;
+	padding: 0;
+	color:#000;
+	font-size:28px;
+}
+.price{
+	position:relative;
+	z-index: 2
+
+}
+.col-sm-3:nth-child(1) .card2 .price h4{
+	margin:0;
+	padding: 20px 0;
+	color:#1ecfca;
+	font-size:60px;
+}
+.col-sm-3:nth-child(1) .card2 .price h4 .text-primary
+{
+    color:#1ecfca !important;
+    font-size:30px;
+}
+.col-sm-3:nth-child(1) .card2 .price h4 sub{
+    font-size: 13px;
+    font-weight: 400;
+    color: #aeaeae;
+}
+.col-sm-3:nth-child(2) .card2 .price h4{
+	margin:0;
+	padding: 20px 0;
+	color:#fff;
+	font-size:60px;
+}
+.col-sm-3:nth-child(2) .card2 .price h4 .text-primary
+{
+    color:#fff !important;
+    font-size:30px;
+}
+.col-sm-3:nth-child(2) .card2 .price h4 sub{
+    font-size: 13px;
+    font-weight: 400;
+    color:#fff;
+}
+.col-sm-3:nth-child(3) .card2 .price h4{
+	margin:0;
+	padding: 20px 0;
+	color:#1ecfca;
+	font-size:60px;
+}
+.col-sm-3:nth-child(3) .card2 .price h4 .text-primary
+{
+    color:#1ecfca !important;
+    font-size:30px;
+}
+.col-sm-3:nth-child(3) .card2 .price h4 sub{
+    font-size: 13px;
+    font-weight: 400;
+    color: #aeaeae;
+}
+.option{
+	position: relative;
+	z-index:2;
+}
+
+.option ul{
+	margin: 0;
+	padding: 0;
+}
+.card2 a{
+	position: relative;
+	margin: 20px auto 0;
+	z-index: 2;
+	font-size:0.95em;
+	background-color:#1ecfca;
+	color:white;
+	font-weight: 400;
+    display:block;
+    text-align:center;
+    margin:20px auto;
+    width:140px;
+    height:40px;
+    border-radius:4px;
+    padding-top:6px;
+    cursor: pointer;
+
+}
+.card2 a:hover{
+	text-decoration:none;
+	 box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5)
+}
+.liinline{
+	display:block;
+
+}
+.liinline i{
+	float:left;
+
+}
+.liinline .text{
+	float:center;
+}
+.diamond{
+    margin-bottom: .5rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #46495c;
+    letter-spacing: -.5px;
+    font-size: 1.5rem;
+}
+.extreme{
+	margin-bottom: .5rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #fff;
+    letter-spacing: -.5px;
+    font-size: 1.5rem;
+}
+.col-sm-3 .card2 .center .butn{
+	background-color: white;
+	color:rgba(0, 0, 0, 0.5);
+	text-align: center;
+	width:80px;
+	font-size: .8em;
+	font-weight: bold;
+	border-radius: 6 px;
+	padding: 0 5px 0;
+}
+
+.col-sm-3 .card2 .center{
+	padding-left:30%;
+}
+
+.card2:hover{
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19); 
+	cursor: pointer;
+}

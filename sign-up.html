@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pricing table</title>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+    body{
+	background:#eee;
+}
+table{
+	justify-content:center;
+	padding-top:100px;
+
+}
+table td{
+	text-align:center;
+	padding-top: 10px;
+	padding-right:20px;
+}
+.paddingtop{
+	padding-top:100px;
+}
+.create{
+	font-weight: 600;
+    color: #4d627b;
+    font-size: 24px;
+        margin-top: 20px;
+    margin-bottom: 10px;
+}
+.come{
+	    font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+        color: #69757b;
+    padding-top:3px !important;
+    padding-bottom: 20px !important;
+
+}
+.name{
+	    height: 33px;
+    font-size: 13px;
+    border-radius: 3px;
+    width:150px;
+    box-shadow: none;
+    border: 1px solid rgba(0,0,0,0.07);
+    transition-duration: .5s;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.check:checked{
+ background-color: #5977C5;
+}
+.button5{
+  background-color:#5977C5; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 24px;
+  border-radius: 2px;
+  width: 350px
+}
+
+.button5:hover{
+    
+background-color: #3353A3;
+cursor:pointer;
+
+}
+    </style>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  
+      <script type="text/javascript" src="https://cdn.bootcss.com/typed.js/1.1.4/typed.min.js"></script>
+  
+</head>
+<body>
+	<div class="paddingtop">
+		<table align="center" style="padding-top: 100px">
+			<tr>
+				<td colspan="2">
+					<img src="image/hashlite-logo-small.png" width="200px" height="45px">
+				</td> 
+			</tr>
+			<tr>
+				<td class="create" colspan="2">Create a New Account</td>
+			</tr> 
+			<tr>
+				<td colspan="2" class="come">
+					Come join the HashLite Community! Let's set up your account.
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="text" placeholder= "Full Name" class="name" id="username">
+				</td>
+				<td>
+					<input type="Password" placeholder="Password" class="name" id="userpassword">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<input type="text" placeholder="E-Mail" class="name" id="useremail">
+				</td>
+				<td>
+					<input type="password" placeholder="Confirm password" class="name" id="userConfirmPassword">
+				</td>
+			</tr>
+			<tr >
+				<td colspan="2"><div class="g-recaptcha" align="center" data-sitekey="6Ldb2ZEUAAAAAK1Te9xRHJMGgctj5e_wwq9QEN81"></div></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="checkbox" class="check" style="cursor: pointer;">I agree with the Terms and Conditions
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<input type="button" value="register" class="button5" id="register">
+				</td>
+			</tr>
+		</table>
+	</div>
+</body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.min.js"></script>
+<script src='https://www.google.com/recaptcha/api.js'></script>
+<script src="js/sign-up.js"></script>
+</html>

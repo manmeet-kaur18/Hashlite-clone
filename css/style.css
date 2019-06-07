@@ -1,0 +1,181 @@
+
+body{
+	margin:0;
+	padding:0;
+}
+#particles-js1{
+	background-image: url("https://webgradients.com/public/webgradients_png/039%20Deep%20Blue.png");
+	height: 100vh;
+	background-size: cover;
+	background-position:center;
+	position:absolute;
+}
+#particles-js{
+	background-color:#344880;
+	position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+ul {
+  width:100%;
+  padding: 0;
+  margin:0 auto;
+}
+
+
+li {
+  box-sizing: border-box;
+  list-style: none;
+  display: inline-block;
+  padding: 15px 20px;
+  margin:0px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  
+}
+
+.leftalign
+{
+	width: 50%;
+   padding-left:250px;
+   top:10px;
+}
+
+ul li a {
+  text-transform: capitalize;
+    font-weight: 200;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: "Lato", sans-serif;
+    color:rgba(255, 255, 255, 0.83);
+    text-decoration: none;
+
+}
+
+ul li a:hover{
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+a.active
+{
+  color:white;
+  /* border-top: 2px solid #1ecfca; */
+  cursor:pointer;
+}
+
+.heading {
+    width: 100%;
+    color: white !important;
+    padding-top: 180px;
+    font-weight: 300 !important;
+    font-size: 45px;
+    margin-bottom: .5rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    line-height: 1.3;
+    color: #46495c;
+    letter-spacing: -.5px;
+    position: absolute;
+    text-align:center;
+}
+.para2{
+	width:100%;
+    margin-bottom: 30px !important;
+    font-weight: 300;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align:center;
+    position:absolute;
+    padding-top:320px;
+}
+.para1{
+	padding-top:270px;
+	width: 100%;
+    color: white !important;
+    font-weight: 300 !important;
+    font-size:1.1em;
+    margin-bottom: .5rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #46495c;
+    letter-spacing: -.5px;
+    position: absolute;
+    text-align:center;
+}
+.buttonclass{
+	padding-top:420px;
+	width:100%;
+	position:absolute;
+	padding-left: 550px;
+	display: block;
+}
+.button1{
+	border: none;
+	background-color:#1ecfca;
+	padding: 12px 28px;
+	width:200px;
+    color:white;
+    border-radius: 5px;
+    cursor:pointer;
+    font-weight: 400 !important;
+    font-size: 0.95rem !important;
+    font-family: "Lato", sans-serif;
+    letter-spacing: 1px;
+    }
+
+.button1:hover {
+  box-shadow: 0 17px 16px 0 rgba(0,0,0,0.24), 0 15px 50px 0 rgba(0,0,0,0.19);
+}
+.button{
+	padding-top:420px;
+	width:100%;
+	position:absolute;
+	padding-left: 790px;
+	display: block;
+}
+a.animated-button.thar-three {
+  padding-top:10px;
+  color: #fff;
+  padding-bottom:10px;
+  cursor: pointer;
+  display: block;
+  position: relative;
+  border: 2px solid white;
+  border-radius: 4px;
+  width:150px;
+  text-align:center;
+  text-decoration: none;
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+a.animated-button.thar-three:hover {
+  color: #000 !important;
+  background-color: transparent;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    background-color: white;
+}
+a.animated-button.thar-three:hover:before {
+  left: 0%;
+  right: auto;
+  width: 100%;
+}
+a.animated-button.thar-three:before {
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  width: 0px;
+  z-index: -1;
+  content: '';
+  color: #000 !important;
+  background:white;
+  transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}

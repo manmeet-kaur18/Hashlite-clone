@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>support</title>
+	<style>
+	#sec{
+		width:80%;
+		height:80%;
+		background-color: #eee;
+	}
+	nav{
+		background:#414A59;
+		line-height: 0.9;
+		width:100%;
+		color:white;
+	}
+	.sameline{
+		display:flex;
+	}
+
+
+	.english{
+		background:#eee;
+		border-radius: 4px 4px 0 0;
+		color: #4D4D4D;
+		line-height:0.9;
+		border:none;
+		font-size: 0.8em;
+
+	}
+
+	.home a{
+		padding-top: 9px;
+		padding-left: 40px;
+		font-size: 1.2em;
+		color: white;
+		text-decoration: none;
+	}		
+
+	.home a:hover{
+		cursor: pointer;
+		color: white;
+		text-decoration: none;
+	}
+
+button:hover {
+	cursor: pointer;
+}
+
+.col-sm-3:nth-child(1) .card {
+	background-color: rgba(255, 0, 0, 0.6);
+	color: white;
+}
+
+.col-sm-3:nth-child(2) .card {
+	background-color: rgba(123, 239, 178, 1);
+	color: white;
+}
+
+.col-sm-3:nth-child(3) .card {
+	background-color: rgba(34, 167, 240, 1);
+	color: white;
+}
+
+.card__title {
+
+	font-family: Helvetica, sans-serif;
+	font-variant: small-caps;
+	margin: 10px 0;
+	font-size: 24px;
+	font-weight: 300px;
+}
+
+.card__description {
+	font-family: Helvetica, sans-serif;
+	font-size: 13px;
+	padding-bottom: 50px;
+}
+
+.col-sm-3:nth-child(1) .card .card__button button {
+	color: #d55 !important;
+	background-color: white;
+	width: 239px;
+	border: solid transparent;
+	border-radius: 4px;
+	color: white;
+	height: 47px;
+	text-transform: uppercase;
+	transition: background-color 0.2s ease;
+	cursor: pointer;
+}
+
+.col-sm-3:nth-child(1) .card .card__button {
+	padding-bottom: 30px;
+}
+
+.col-sm-3:nth-child(1) .card .card__button button:hover {
+	background-color: regba(0, 0, 0, 0.4);
+
+}
+
+.col-sm-3:nth-child(2) .card .card__button button {
+	color: #82CA9C !important;
+	background-color: white;
+	width: 239px;
+	border: solid transparent;
+	border-radius: 4px;
+	color: white;
+	height: 47px;
+	text-transform: uppercase;
+	transition: background-color 0.2s ease;
+	cursor: pointer;
+}
+
+.col-sm-3:nth-child(2) .card .card__button {
+	padding-bottom: 30px;
+}
+
+.col-sm-3:nth-child(2) .card .card__button button:hover {
+	background-color: regba(0, 0, 0, 0.4);
+
+}
+
+.col-sm-3:nth-child(3) .card .card__button button {
+	color: #24ccdb !important;
+	background-color: white;
+	width: 239px;
+	border: solid transparent;
+	border-radius: 4px;
+	color: white;
+	height: 47px;
+	text-transform: uppercase;
+	transition: background-color 0.2s ease;
+	cursor: pointer;
+}
+
+.col-sm-3:nth-child(3) .card .card__button {
+	padding-bottom: 30px;
+}
+
+.col-sm-3:nth-child(3) .card .card__button button:hover {
+	background-color: regba(0, 0, 0, 0.4);
+
+}
+
+.fa {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	transform: scale(1.5, 2);
+	font-weight: 30px;
+}
+.col-sm-3{
+	flex:0 0 33.33% !important;
+}
+.footer{
+		background:#414A59;
+		line-height: 1.8;
+		width:100%;
+		color:white;
+		text-align: right;
+		padding-right: 10px;
+	}
+
+</style>
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet"
+integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+<body>
+<div class="container-fluid" style="padding-left: 200px" >
+<section id="sec">
+	<nav class="navsupport">
+		<div class="sameline">
+			<div class="homesec" style="width: 90%">
+				<div class="home"><a href="/">Home</a></div>
+			</div>
+			<div class="rightr" style="float:right; padding-top: 5px">
+				<button class="english">
+					<img src="https://cdn1.iconfinder.com/data/icons/flags-of-the-world-set-2-1/100/.svg-14-512.png"
+					width="30px" height="30px">English
+				</button>
+			</div>
+		</div>
+	</nav>
+		<div class="container">
+			<div class="row" style="padding-top: 50px;padding-bottom: 50px">
+				<div class="col-sm-3" style="max-width: 33.33% !important;">
+					<div class="card text-center">
+						<i class="fa fa-ticket" aria-hidden="true"></i>
+						<div class="card__title">Tickets</div>
+						<div class="card__description">Send ticket through our support center<br> and get
+							response of your doubts,<br> suggestions and issues.</div>
+						<div class="card__button"><button
+								class="button button_inverted button_primary button_large">Create
+								Ticket</button></div>
+					</div>
+				</div>
+				<div class="col-sm-3" style="max-width: 33.33% !important;">
+					<div class="card text-center">
+						<i class="fa fa-check-square-o" aria-hidden="true"></i>
+						<div class="card__title">View Ticket</div>
+						<div class="card__description">Check the status of your ticket using your ticket number
+							and email.</div>
+						<div class="card__button"><button
+								class="button button_inverted button_primary button_large">Check ticket</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3" style="max-width: 33.33%">
+					<div class="card text-center">
+						<i class="fa fa-book f" aria-hidden="true"></i>
+						<div class="card__title">Articles</div>
+						<div class="card__description">Take a look to our articles about common issues, guides
+							and documentation.</div>
+						<div class="card__button"><button
+								class="button button_inverted button_primary button_large">Veiw
+								Articles</button></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	<div class="footer">
+		Powered by open supports
+	</div>
+</section>
+</div>
+</body>
+</html>
